@@ -1,0 +1,31 @@
+
+
+//Remove an Element from a Set
+
+import java.util.HashSet;
+import java.util.Set;
+
+public class removeElement {
+
+    public static void main(String[] args){
+
+
+       Set<Integer> removeInt = new HashSet<>();
+
+
+       removeInt.add(12);
+       removeInt.add(23);
+       removeInt.add(70);
+
+
+       System.out.println("Before removing the set : "+removeInt+"\n");
+
+
+        removeInt.remove(12);
+
+       System.out.println("After removing the 3 element in the set : "+removeInt);
+
+    }
+
+
+}
